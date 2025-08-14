@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(147, 108, 15);
+    text-align: center;
+}
+.logo {
+    height: 60%;
+    width: 50%; /* Setting a fixed width */
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.img {
+    display: flex;
+    margin-left: 30%;
+}
+
+.container{
+    height: 75vh;
+    margin-top: 3%;
+    margin-left: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 12vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #782d2d;
+    background-color: rgb(23, 231, 161);
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+}
+.reset-button{
+    padding: 1rem;
+    color: white;
+    border: none;
+    background-color: #2b2727;
+    border-radius: 1rem;
+}
+.new-button{
+    padding: 0.5rem;
+    margin-top: 5%;
+    font-size: 1rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.winnerMessage{
+    font-size: 25px;
+    font-size: bolder;
+    color: rgb(1, 25, 17);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.winner{
+    margin-top: 20%;
+    height: 100vmin;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide {
+    display: none;
+  }
